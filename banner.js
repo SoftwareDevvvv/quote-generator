@@ -1,4 +1,4 @@
-function showBanner() {
+const showBanner = () => {
     console.log(`                                                          
     
      ██████╗ ██╗   ██╗ ██████╗ ████████╗███████╗    
@@ -28,3 +28,5 @@ function showBanner() {
                                                                     
      `)
 }
+
+export {showBanner}
